@@ -10,6 +10,7 @@ from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 import jwt
 import redis
 import pickle
+import mysql.connector
 
 
 db_redis = redis.StrictRedis()
